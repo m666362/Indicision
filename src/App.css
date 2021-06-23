@@ -1,15 +1,15 @@
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.6rem;
-    background: #333745;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  background: #212121;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /*
@@ -17,9 +17,9 @@ button {
 */
 
 .container {
-    max-width: 60rem;
-    margin: 0 auto;
-    padding-left: 1.6rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding-left: 1.6rem;
 }
 
 /*
@@ -27,22 +27,22 @@ button {
 */
 
 .header {
-    background: #20222b; /* Off black*/
-    margin-bottom: 4.8rem;
-    padding: 1.6rem 0;
-    color: #ffffff;
+  background: #303f9f; /* Off black*/
+  margin-bottom: 4.8rem;
+  padding: 1.6rem 0;
+  color: #ffffff;
 }
 
 .header_title {
-    font-size: 3.2rem;
-    margin: 0;
+  font-size: 3.2rem;
+  margin: 0;
 }
 
 .header_subtitle {
-    color: #a5afd7; /* Off white */
-    font-size: 1.6rem;
-    font-weight: 500;
-    margin: 0;
+  color: #fff; /* Off white */
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 0;
 }
 
 /*
@@ -50,36 +50,34 @@ button {
 */
 
 .big_button {
-    background: #8357c5;
-    border: none;
-    border-bottom: .6rem solid #7d53bb;
-    color: white;
-    font-weight: bold;
-    font-size: 3.2rem;
-    width: 100%;
-    margin-bottom: 4.8rem;
-    padding: 2.4rem;
+  background: #3f51b5;
+  color: white;
+  font-weight: bold;
+  font-size: 3.2rem;
+  width: 100%;
+  margin-bottom: 4.8rem;
+  padding: 2.4rem;
+  border: 0;
 }
 
 .big_button:disabled {
-    opacity: .5;
-    cursor: default;
+  opacity: 0.5;
+  cursor: default;
 }
 
 .add_options_button {
-    background: #8357c5;
-    border: none;
-    border-bottom: .3rem solid #7d53bb;
-    color: white;
-    font-weight: 500;
-    padding: 1.2rem;
+  background: #1976D2;
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 1.2rem;
 }
 
 .button_link {
-    background: none;
-    border: none;
-    color: #a5afd7;
-    padding: 0;
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 0;
 }
 
 /*
@@ -87,29 +85,29 @@ button {
 */
 
 .widget_header {
-    background: #3c4251;
-    color: #a5afd7;
-    padding: 1.6rem;
-    display: flex;
-    justify-content: space-between;
+  background: #3c4251;
+  color: #a5afd7;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .widget_header_title {
-    margin: 0;
-
+  margin: 0;
+  color: #fff;
 }
 
 .widget {
-    background: #464b5e;
-    margin-bottom: 4.8rem;
+  background: #464b5e;
+  margin-bottom: 4.8rem;
 }
 
 .widget_message {
-    border-bottom: 1px solid #4f5568;
-    color: #a5afd7;
-    margin: 0;
-    padding: 3.2rem;
-    text-align: center;
+  border-bottom: 1px solid #4f5568;
+  color: #a5afd7;
+  margin: 0;
+  padding: 3.2rem;
+  text-align: center;
 }
 
 /*
@@ -117,18 +115,18 @@ button {
 */
 
 .option {
-    display: flex;
-    justify-content: space-between;
-    padding: 3.2rem 1.6rem;
-    border-bottom: 1px solid #4f5568;
+  display: flex;
+  justify-content: space-between;
+  padding: 3.2rem 1.6rem;
+  border-bottom: 1px solid #4f5568;
 }
 
 .option_text {
-    color: white;
-    font-weight: 500;
-    font-size: 2rem;
-    margin: 0;
-    word-break: break-all;
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0;
+  word-break: break-all;
 }
 
 /*
@@ -136,62 +134,62 @@ button {
 */
 
 .add_option {
-    display: flex;
-    flex-direction: column;
-    padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem;
 }
 
 .add_option_input {
-    flex-grow: 1;
-    background: #333745;
-    border-bottom: 1px solid #464b5e;
-    border: none;
-    margin: 0 0 1.2rem 0;
-    color: #a5afd7;
-    padding: 1.2rem;
+  flex-grow: 1;
+  background: #333745;
+  border-bottom: 1px solid #464b5e;
+  border: none;
+  margin: 0 0 1.2rem 0;
+  color: #a5afd7;
+  padding: 1.2rem;
 }
 
 /*
     Modal
 */
 
-.ReactModalPortal>div {
-    opacity: 0;
+.ReactModalPortal > div {
+  opacity: 0;
 }
 
 .ReactModalPortal .ReactModal__Overlay {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    transition: opacity 200ms ease-in-out;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: opacity 200ms ease-in-out;
 }
 
 .ReactModalPortal .ReactModal__Overlay--after-open {
-    opacity: 1;
+  opacity: 1;
 }
 
 .ReactModalPortal .ReactModal__Overlay--before-close {
-    opacity: 0;
+  opacity: 0;
 }
 
 .modal {
-    background: #464b5e;
-    color: white;
-    max-width: 30rem;
-    outline: none;
-    padding: 3.2rem;
-    text-align: center;
+  background: #464b5e;
+  color: white;
+  max-width: 30rem;
+  outline: none;
+  padding: 3.2rem;
+  text-align: center;
 }
 
 .modal__title {
-    margin: 0 0 1.6rem 0;
+  margin: 0 0 1.6rem 0;
 }
 
 .modal__body {
-    font-size: 2rem;
-    font-weight: 300;
-    margin: 0 0 3.2rem 0;
-    word-break: break-all;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0 0 3.2rem 0;
+  word-break: break-all;
 }
 
 /*
@@ -199,10 +197,10 @@ button {
 */
 
 @media (min-width: 45rem) {
-    .add_option {
-        flex-direction: row;
-    }
-    .add_option_input {
-        margin: 0 16px 0 0;
-    }
+  .add_option {
+    flex-direction: row;
+  }
+  .add_option_input {
+    margin: 0 16px 0 0;
+  }
 }
