@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://m666362.github.io/IndecisionApp/",
+  "homepage": "https://m666362.github.io/Indicision/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "normalize.css": "^7.0.0",
